@@ -6,7 +6,6 @@ class FizzBuzz1 {
             System.exit(1);
         }
         int end = 0;
-        int a;
         try {
             end = Integer.parseInt(args[0]);
         } catch(NumberFormatException e) {
