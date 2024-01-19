@@ -1,20 +1,19 @@
-// ’PŒ³02 ’ño‰Û‘è1 ‰ð“š—á
-// “ü—Íƒ`ƒFƒbƒN‹@”\•t‚«‚ÌFizzBuzz‰ð–@ƒvƒƒOƒ‰ƒ€
+
 class FizzBuzz1 {
     public static void main(String[] args) {
         if (args.length < 1) {
-            System.out.println("o—Í”ÍˆÍ‚ðŽw’è‚µ‚Ä‚­‚¾‚³‚¢");
+            System.out.println("å‡ºåŠ›ç¯„å›²ã‚’æŒ‡å®šã—ã¦ãã ã•ã„");
             System.exit(1);
         }
         int end = 0;
         try {
             end = Integer.parseInt(args[0]);
         } catch(NumberFormatException e) {
-            System.out.println("o—Í”ÍˆÍ‚Í®”‚ÅŽw’è‚µ‚Ä‚­‚¾‚³‚¢");
+            System.out.println("å‡ºåŠ›ç¯„å›²ã¯æ•´æ•°ã§æŒ‡å®šã—ã¦ãã ã•ã„");
             System.exit(1);
         }
         if (end < 5) {
-            System.out.println("o—Í”ÍˆÍ‚Í5ˆÈã‚Ì®”‚ÅŽw’è‚µ‚Ä‚­‚¾‚³‚¢");
+            System.out.println("å‡ºåŠ›ç¯„å›²ã¯5ä»¥ä¸Šã®æ•´æ•°ã§æŒ‡å®šã—ã¦ãã ã•ã„");
             System.exit(1);
         }
         for (int i = 1; i <= end; ++i) {
