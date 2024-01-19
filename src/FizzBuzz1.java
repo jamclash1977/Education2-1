@@ -1,4 +1,8 @@
-
+/**
+ * FazzBizzを判定するクラス
+ * @author shiono.junichir
+ *
+ */
 class FizzBuzz1 {
     public static void main(String[] args) {
         if (args.length < 1) {
