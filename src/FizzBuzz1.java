@@ -1,6 +1,6 @@
 /**
  * FazzBizzを判定するクラス
- * @author shiono.junichir
+ * @author shiono.junichir a
  *
  */
 class FizzBuzz1 {
